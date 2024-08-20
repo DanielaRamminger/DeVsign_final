@@ -178,3 +178,17 @@ document.addEventListener("scroll", function() {
       textElement.classList.remove("circled");
   }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  const gif = document.querySelector('.lap');
+
+  window.addEventListener('scroll', function() {
+      const scrollPosition = window.scrollY;
+
+      if (scrollPosition > 0) {
+          gif.classList.add('scrolled');
+      } else {
+          gif.classList.remove('scrolled');
+      }
+  });
+});
