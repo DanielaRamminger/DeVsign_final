@@ -277,7 +277,7 @@ input[type="submit"]:active,
 	#navbar .container {
 		height: var(--nav-height-desktop);
 		background: rgba(0, 0, 0, .3);
-		backdrop-filter: blur(25px);
+		
 
 	}
 }
