@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(function(){let e=document.getElementsByClassName("splide");for(let t=0;t<e.length;t++)new Splide(e[t]).mount()}));

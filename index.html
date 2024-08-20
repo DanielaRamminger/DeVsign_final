@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="de-AT" class="no-js">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InterHair Website</title>
+    <meta name="description" content="InterHair, verlangen Sie das Beste">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/icons.css">
+    <link rel="stylesheet" href="assets/css/splide.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+</head>
+
+<body>
+
+    <header id="myHeader" class="sticky">
+        <a href="#content" class="screen-reader-text">Skip to Content</a>
+        <nav id="navbar">
+            <div class="container">
+                <div id="brand">
+                    <a href="index.html" rel="home">
+                        <img class="custom-logo">
+                    </a>
+                </div>
+                <input type="checkbox" id="nav-toggle">
+                <label for="nav-toggle" id="menu-button">
+                    <span id="menu-button-icon" aria-hidden="true"></span>
+                    <span class="screen-reader-text">Open/Close
+                        Navigation</span>
+                </label>
+                <ul id="nav-main" class="nav-menu">
+                    <li class="current-menu-item">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="brands.html">Brands</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="brands/lookup.html">Look up</a>
+                            </li>
+                            <li>
+                                <a href="brands/interhair.html">InterHair</a>
+                            </li>
+                            <li>
+                                <a href="brands/hinshitsu.html">Hinshitsu</a>
+                            </li>
+                            <li>
+                                <a href="brands/goldfever.html">GoldFever</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="projects.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+   
+
+    
+
+    <main id="content" class="container">
+        <h1 class="is-style-headline ">Headline 1 mit Linie</h1>
+        <h1 class="animate">Headline 1</h1>
+        <h2 class="animate">Headline 2</h2>
+        <h3 class="animate">Headline 3</h3>
+        <h4 class="animate">Headline 4</h4>
+        <h5 class="animate">Headline 5</h5>
+        <h6 class="animate">Headline 6</h6>
+
+        <h1 class=" ">Berechnung der benötigten Extensions</h1>
+        <label for="typ">Typ:</label>
+        <select id="typ">
+            <option value="verdichtung">Verdichtung</option>
+            <option value="verlängerung">Verlängerung</option>
+        </select>
+        <br><br>
+        <label for="haardicke">Haardicke:</label>
+        <select id="haardicke">
+            <option value="fein">Fein</option>
+            <option value="mittel">Mittel</option>
+            <option value="dick">Dick</option>
+        </select>
+        <br><br>
+        <button id="calculateButton">Berechnen</button>
+        <div id="result"></div>
+
+        <p class="animate">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus
+            mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+            quis, sem. Nulla consequat massa quis enim. Donec pede justo,
+            fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
+            rhoncus ut, imperdiet a, venenatis vitae, justo</p>
+        <p class="animate">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus
+            mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+            quis, sem. Nulla consequat massa quis enim. Donec pede justo,
+            fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
+            rhoncus ut, imperdiet a, venenatis vitae, justo
+        <div>
+            <a href="project.html">
+                <button class="button ">Kontakt</button>
+            </a>
+        </div>
+
+
+
+        <section class="projects animate">
+            <div class="splide">
+                <h2 class="is-style-headline">Projects Carousel</h2>
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <figure class="project">
+                                <a href="project-detail.html">
+                                    <img src="/assets/img/blackhair1.png" alt="Frau mit schwarzen Haaren">
+                                </a>
+                                <figcaption class="project-caption">
+                                    <h3 class="project-title">
+                                        <a href="project-detail.html">pre-bonded IH Premium 18" 01</a>
+                                    </h3>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="splide__slide">
+                            <figure class="project">
+                                <a href="project-detail.html">
+                                    <img src="/assets/img/goldblond2.png" alt="Frau mit goldblonden Haaren">
+                                </a>
+                                <figcaption class="project-caption">
+                                    <h3 class="project-title">
+                                        <a href="project-detail.html">pre-bonded IH Classic 14" 08</a>
+                                    </h3>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="splide__slide">
+                            <figure class="project">
+                                <a href="project-detail.html">
+                                    <img src="/assets/img/darkbrownhair3.png" alt="Frau mit dunkelbraunen Haaren">
+                                </a>
+                                <figcaption class="project-caption">
+                                    <h3 class="project-title">
+                                        <a href="project-detail.html">pre-bonded IH Premium 18" 03</a>
+                                    </h3>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="splide__slide">
+                            <figure class="project">
+                                <a href="project-detail.html">
+                                    <img src="/assets/img/darkblondehair4.png" alt="Frau mit dunkelblonden Haaren">
+                                </a>
+                                <figcaption class="project-caption">
+                                    <h3 class="project-title">
+                                        <a href="project-detail.html">pre-bonded IH Classic 14" 06</a>
+                                    </h3>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="splide__slide">
+                            <figure class="project">
+                                <a href="project-detail.html">
+                                    <img src="/assets/img/balayage5.png" alt="Balayage Haarefarbe">
+                                </a>
+                                <figcaption class="project-caption">
+                                    <h3 class="project-title">
+                                        <a href="project-detail.html">pre-bonded IH Premium Ombre 14"04/30</a>
+                                    </h3>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="splide__slide">
+                            <figure class="project">
+                                <a href="project-detail.html">
+                                    <img src="/assets/img/iceblondhair6.png" alt="lange blonde Haare">
+                                </a>
+                                <figcaption class="project-caption">
+                                    <h3 class="project-title">
+                                        <a href="project-detail.html">pre-bonded IH Premium 18" 59</a>
+                                    </h3>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="splide__slide">
+                            <figure class="project">
+                                <a href="project-detail.html">
+                                    <img src="/assets/img/naturalblondhair7.png" alt="Balayage Haarefarbe">
+                                </a>
+                                <figcaption class="project-caption">
+                                    <h3 class="project-title">
+                                        <a href="project-detail.html">pre-bonded IH Classic 14" 08</a>
+                                    </h3>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="splide__slide">
+                            <figure class="project">
+                                <a href="project-detail.html">
+                                    <img src="/assets/img/ginger8.png" alt="Balayage Haarefarbe">
+                                </a>
+                                <figcaption class="project-caption">
+                                    <h3 class="project-title">
+                                        <a href="project-detail.html">pre-bonded IH Premium Ombre 14"04/30</a>
+                                    </h3>
+                                </figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+                <div class="actions">
+                    <a href="project.html">
+                        <button class="button">Kontakt</button>
+                    </a>
+                </div>
+            </div>
+            </div>
+            <div class="button-container">
+                <button class="button">Kontakt</button>
+            </div>
+        </section>
+
+        <section class="projects">
+            <h2 class="is-style-headline">Projects Grid</h2>
+            <div class="projects-grid">
+                <div class="item">
+                    <figure class="project">
+                        <a href="project-detail.html">
+                            <img src="/assets/img/screenshot.png" alt="Frau mit schwarzeb Haaren">
+                        </a>
+                        <figcaption class="project-caption">
+                            <h3 class="project-title">
+                                <a href="project-detail.html">pre-bonded IH Premium 18" 01</a>
+                            </h3>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="item">
+                    <figure class="project">
+                        <a href="project-detail.html">
+                            <img src="/assets/img/screenshot.png" alt="Frau mit schwarzeb Haaren">
+                        </a>
+                        <figcaption class="project-caption">
+                            <h3 class="project-title">
+                                <a href="project-detail.html">pre-bonded IH Premium 18" 01</a>
+                            </h3>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="item">
+                    <figure class="project">
+                        <a href="project-detail.html">
+                            <img src="/assets/img/screenshot.png" alt="Frau mit schwarzeb Haaren">
+                        </a>
+                        <figcaption class="project-caption">
+                            <h3 class="project-title">
+                                <a href="project-detail.html">pre-bonded IH Premium 18" 01</a>
+                            </h3>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="item">
+                    <figure class="project">
+                        <a href="project-detail.html">
+                            <img src="/assets/img/screenshot.png" alt="Frau mit schwarzeb Haaren">
+                        </a>
+                        <figcaption class="project-caption">
+                            <h3 class="project-title">
+                                <a href="project-detail.html">pre-bonded IH Premium 18" 01</a>
+                            </h3>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="item">
+                    <figure class="project">
+                        <a href="project-detail.html">
+                            <img src="/assets/img/screenshot.png" alt="Frau mit schwarzeb Haaren">
+                        </a>
+                        <figcaption class="project-caption">
+                            <h3 class="project-title">
+                                <a href="project-detail.html">pre-bonded IH Premium 18" 01</a>
+                            </h3>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="item">
+                    <figure class="project">
+                        <a href="project-detail.html">
+                            <img src="/assets/img/screenshot.png" alt="Frau mit schwarzeb Haaren">
+                        </a>
+                        <figcaption class="project-caption">
+                            <h3 class="project-title">
+                                <a href="project-detail.html">pre-bonded IH Premium 18" 01</a>
+                            </h3>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="grid-container">
+            <h2 class="is-style-headline">Latest Posts</h2>
+            <div class="grid">
+                <article class="post">
+                    <h3 class="post-title">
+                        <a href="faq-detail.html">Herkunft der Haare</a>
+                    </h3>
+                    <div class="meta">
+                        <time class="date" datetime="2024-02-03">03.02.2024</time>
+                        <a href="fag.html">Ethisch korrekt bezogen</a>
+                    </div>
+                </article>
+                <article class="post">
+                    <h3 class="post-title">
+                        <a href="faq-detail.html">Herkunft der Haare</a>
+                    </h3>
+                    <div class="meta">
+                        <time class="date" datetime="2024-02-02">11.10.2024</time>
+                        <a href="faq.html">Ethisch korrekt bezogen</a>
+                    </div>
+                </article>
+                <article class="post">
+                    <h3 class="post-title">
+                        <a href="faq-detail.html">Herkunft der Haare</a>
+                    </h3>
+                    <div class="meta">
+                        <time class="date" datetime="2024-02-01">01.02.2024</time>
+                        <a href="faq.html">Ethisch korrekt bezogen</a>
+                    </div>
+                </article>
+            </div>
+            <div class="actions">
+                <a href="faq.html">
+                    <button class="button">all posts</button>
+                </a>
+            </div>
+        </section>
+
+
+
+        <nav class="pagination">
+            <a href="#" class="prev">
+                <span class="icon-arrow-left" role="img" aria-label="Vorherige Seite"></span>
+            </a>
+            <a href="#">1</a>
+            <span class="current">2</span>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#" class="next">
+                <span class="icon-arrow-right" role="img" aria-label="Nächste Seite"></span>
+            </a>
+        </nav>
+
+
+        <div class="single-post animate">
+            <h1 class="is-style-headline">Single Post Header</h1>
+            <div class="meta">
+                <time class="date" datetime="2023-12-14">14.12.2023</time>
+                <a href="blog.html">Herkunkt der Haare</a>,
+                <a href="blog.html"></a>
+            </div>
+            <h2>Der Inhalt des Beitrags</h2>
+            <div class="meta tags">
+                #<a href="#">Tag 1</a> #<a href="#">Tag 2</a> #<a href="#">Schlagwort</a>
+            </div>
+        </div>
+
+        <section class="bubble-container">
+            <div class="container404">
+                <div class="bubble">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="bubble">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="bubble">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="bubble">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="bubble">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </section>
+
+
+
+
+    </main>
+
+    <footer id="footer-page" class="container columns">
+        <div class="social-links column">
+
+            <a href="https://www.instagram.com/" target="_blank">
+                <span class="icon-instagram" role="img" aria-label="Folge uns auf Instagram"></span>
+            </a>
+            <span class="icon-facebook" role="img" aria-label="Folge uns auf Facebook"></span>
+            </a> <a href="https://www.facebook.com/" target="_blank">
+
+
+
+
+
+
+        </div>
+        <nav id="nav-footer" class="column">
+            <ul class="nav-menu">
+                <li>
+                    <a href="#">Datenschutz</a>
+                </li>
+                <li>
+                    <a href="#">Impressum</a>
+                </li>
+                <li>
+                    <a href="#">AGB</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="copyright column">
+            &copy; 2024, Daniela Ramminger
+        </div>
+    </footer>
+
+    <div id="to-top" class="show">𖤂</div>
+
+    <script src="assets/js/splide.min.js"></script>
+    <script src="assets/js/slider.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <script src="/assets/js/editor.js"></script>
+
+</body>
+
+</html>

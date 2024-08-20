@@ -1,0 +1,107 @@
+{
+  "version": 2,
+  "settings": {
+    "layout": {
+      "contentSize": "1400px",
+      "wideSize": "1600px"
+    },
+    "color": {
+      "defaultPalette": false,
+      "palette": [
+        {
+          "slug": "base-bg",
+          "name": "Base BG",
+          "color": "#070707"
+        },
+        {
+          "slug": "base-color",
+          "name": "Base Color",
+          "color": "#faf6f6"
+        },
+        {
+          "slug": "navbar-bg",
+          "name": "Navbar BG",
+          "color": "#000000"
+        },
+        {
+          "slug": "primary",
+          "name": "Primary",
+          "color": "#f114ba"
+        },
+        {
+          "slug": "secondary",
+          "name": "Secondary",
+          "color": "#272521"
+        },
+        {
+          "slug": "button",
+          "name": "Button",
+          "color": "#363536"
+        }
+      ],
+      "custom": true,
+      "customGradient": true,
+      "background": true,
+      "text": true,
+      "link": true,
+      "defaultGradients": false,
+      "gradients": [
+        {
+          "slug": "base-gradient",
+          "name": "Base Gradient",
+          "gradient": "linear-gradient(40deg, var(--wp--preset--color--base-bg) 0, var(--wp--preset--color--navbar-bg) 100%)"
+        }
+      ],
+      "defaultDuotone": false,
+      "customDuotone": false,
+      "duotone": []
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true,
+      "units": ["em","rem","px","vh","vw","%"],
+      "spacingScale": {
+        "operator": "*",
+        "increment": 1.5,
+        "steps": 7,
+        "mediumStep": 1.5,
+        "unit": "rem"
+      }
+    },
+    "typography": {
+      "customFontSize": true,
+      "lineHeight": true,
+      "dropCap": false,
+      "fluid": false,
+      "fontStyle": true,
+      "fontWeight": true,
+      "letterSpacing": true,
+      "textDecoration": true,
+      "textTransform": true,
+      "fontSizes": [
+        {
+          "slug": "normal",
+          "name": "Normal",
+          "size": "1rem"
+        },
+        {
+          "slug": "large",
+          "name": "Large",
+          "size": "1.5rem"
+        }
+      ],
+      "fontFamilies": [
+        {
+          "fontFamily": "\"OverusedGrotesk\", sans-serif",
+          "slug": "OverusedGrotesk",
+          "name": "OverusedGrotesk"
+        },
+        {
+          "fontFamily": "\"public-sans\", sans-serif",
+          "slug": "public-sans",
+          "name": "public-sans"
+        }
+      ]
+    }
+  }
+}
