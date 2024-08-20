@@ -998,34 +998,32 @@ select {
 }
 
 .pencil-text {
-
-	padding: 20px;
-	position: relative;
-	width: max-content;
-	margin: auto;
-	overflow: hidden;
-
+    padding: 20px;
+    position: relative;
+    display: inline-block; 
+    margin: auto;
+    overflow: hidden;
 }
 
 .pencil-text::before {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	border: 4px solid transparent;
-	border-radius: 8px;
-	border-image: linear-gradient(45deg, var(--primary-color) 25%, transparent 25%, transparent 50%, var(--primary-color) 50%, var(--primary-color) 75%, transparent 75%, transparent) 1;
-	border-image-slice: 1;
-	transform: scaleX(0);
-	transform-origin: left;
-	transition: transform 0.8s ease;
-	pointer-events: none;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 4px solid transparent;
+    border-radius: 8px;
+    border-image: linear-gradient(45deg, var(--primary-color) 25%, transparent 25%, transparent 50%, var(--primary-color) 50%, var(--primary-color) 75%, transparent 75%, transparent) 1;
+    border-image-slice: 1;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.8s ease;
+    pointer-events: none;
 }
 
 .pencil-text.circled::before {
-	transform: scaleX(1);
+    transform: scaleX(1);
 }
 
 .text {
