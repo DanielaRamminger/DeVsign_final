@@ -12,14 +12,7 @@
         <?php _e('Skip to Content', 'lookup'); ?>
     </a>
     <nav id="navbar">
-        <div class="container">
-            <div id="brand">
-                <?php
-                if (function_exists('the_custom_logo')) {
-                    the_custom_logo();
-                }
-                ?>
-            </div>
+  
             <input type="checkbox" id="nav-toggle">
             <label for="nav-toggle" id="menu-button">
                 <span id="menu-button-icon" aria-hidden="true"></span>
@@ -40,3 +33,12 @@
             
         </div>
     </nav>
+    <div class="container">
+            <div id="brand">
+                <?php
+                if (function_exists('the_custom_logo')) {
+                    the_custom_logo();
+                }
+                ?>
+            </div>
+    

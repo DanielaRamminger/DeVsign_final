@@ -179,3 +179,13 @@ document.addEventListener("scroll", function() {
   }
 });
 
+document.addEventListener("scroll", function() {
+  const brandElement = document.getElementById('brand');
+  const scrollPosition = window.scrollY;
+
+  if (scrollPosition > 0) {
+      brandElement.style.opacity = '0';
+  } else {
+      brandElement.style.opacity = '1';
+  }
+});
