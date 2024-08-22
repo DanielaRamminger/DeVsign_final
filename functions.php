@@ -258,3 +258,9 @@ function custom_menu_item_links($items, $args) {
 }
 add_filter('wp_nav_menu_objects', 'custom_menu_item_links', 10, 2);
 
+function theme_enqueue_styles() {
+    wp_enqueue_style( 'main-styles', get_stylesheet_uri() );
+    wp_enqueue_style( 'material-icons', 'https://fonts.googleapis.com/icon?family=Material+Icons' );
+}
+add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
+

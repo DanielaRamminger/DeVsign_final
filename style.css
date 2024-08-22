@@ -1048,4 +1048,37 @@ select {
 	
 }
 
+.sidebar {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+	background: rgba(0, 0, 0, .3);
+	backdrop-filter: blur(25px);
+	z-index:10000;
+	border-radius: 16px;
+}
+
+.icon-btn {
+    display: block;
+    margin: 10px 0;
+    color: var(--base-color);
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+}
+
+.icon-btn:hover {
+    color:var(--primary-color);
+}
+
+.material-icons {
+    font-size: 36px; 
+}
+
 
