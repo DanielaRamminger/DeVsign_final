@@ -168,16 +168,20 @@ function showResult(message) {
 
 
 document.addEventListener("scroll", function() {
-  const textElement = document.querySelector(".pencil-text");
-  const textPosition = textElement.getBoundingClientRect().top;
+  const textElements = document.querySelectorAll(".pencil-text");
   const screenHeight = window.innerHeight;
 
-  if (textPosition < screenHeight && textPosition > 0) {
+  textElements.forEach(function(textElement) {
+    const textPosition = textElement.getBoundingClientRect().top;
+
+    if (textPosition < screenHeight && textPosition > 0) {
       textElement.classList.add("circled");
-  } else {
+    } else {
       textElement.classList.remove("circled");
-  }
+    }
+  });
 });
+
 
 document.addEventListener("scroll", function() {
   const brandElement = document.getElementById('brand');
