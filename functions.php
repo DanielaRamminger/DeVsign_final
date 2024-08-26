@@ -13,7 +13,7 @@ add_action('after_setup_theme', function () {
         'comment-list',
         'comment-form'
     ]);
-    load_theme_textdomain('interhair', get_template_directory() . '/assets/languages');
+    load_theme_textdomain('devsign', get_template_directory() . '/assets/languages');
 
 
     add_theme_support('custom-logo', [
@@ -24,8 +24,8 @@ add_action('after_setup_theme', function () {
     ]);
 
     register_nav_menus([
-        'primary' => __('Hauptmenü', 'interhair'),
-        'footer' => __('Footermenü', 'interhair'),
+        'primary' => __('Hauptmenü', 'devsign'),
+        'footer' => __('Footermenü', 'devsign'),
     ]);
 
     add_theme_support('editor-styles');
@@ -75,7 +75,7 @@ function theme_customizer_social_links($wp_customize)
 {
 
     $wp_customize->add_section('social_links_section', [
-        'title' => __('Social Links', 'interhair'),
+        'title' => __('Social Links', 'devsign'),
         'priority' => 100
     ]);
 
@@ -86,7 +86,7 @@ function theme_customizer_social_links($wp_customize)
     ]);
 
     $wp_customize->add_control('linkedin_link', [
-        'label'  => __('LinkedIn Link', 'interhair'),
+        'label'  => __('LinkedIn Link', 'devsign'),
         'section' => 'social_links_section',
         'type' => 'text'
     ]);
@@ -98,7 +98,7 @@ function theme_customizer_social_links($wp_customize)
     ]);
 
     $wp_customize->add_control('instagram_link', [
-        'label'  => __('Instagram Link', 'interhair'),
+        'label'  => __('Instagram Link', 'devsign'),
         'section' => 'social_links_section',
         'type' => 'text'
     ]);
@@ -110,7 +110,7 @@ function theme_customizer_social_links($wp_customize)
     ]);
 
     $wp_customize->add_control('facebook_link', [
-        'label'  => __('Facebook Link', 'interhair'),
+        'label'  => __('Facebook Link', 'devsign'),
         'section' => 'social_links_section',
         'type' => 'text'
     ]);
@@ -122,7 +122,7 @@ function theme_customizer_social_links($wp_customize)
     ]);
 
     $wp_customize->add_control('github_link', [
-        'label'  => __('Github Link', 'interhair'),
+        'label'  => __('Github Link', 'devsign'),
         'section' => 'social_links_section',
         'type' => 'text'
     ]);
@@ -135,36 +135,36 @@ function project()
 {
 
     $labels = [
-        'name'                  => _x('Brands', 'Post Type General Name', 'interhair'),
-        'singular_name'         => _x('Brand', 'Post Type Singular Name', 'interhair'),
-        'menu_name'             => __('Brands', 'interhair'),
-        'name_admin_bar'        => __('Brands', 'interhair'),
-        'archives'              => __('Projekt Archiv', 'interhair'),
-        'attributes'            => __('Projekte Attribute', 'interhair'),
-        'parent_item_colon'     => __('Übergeordnetes Projekt:', 'interhair'),
-        'all_items'             => __('Alle Projekte', 'interhair'),
-        'add_new_item'          => __('Neues Projekt hinzufügen', 'interhair'),
-        'add_new'               => __('Projekt hinzufügen', 'interhair'),
-        'new_item'              => __('Neues Projekt', 'interhair'),
-        'edit_item'             => __('Projekt bearbeiten', 'interhair'),
-        'update_item'           => __('Projekt aktualisieren', 'interhair'),
-        'view_item'             => __('Zeige Projekt', 'interhair'),
-        'view_items'            => __('Zeige Projekte', 'interhair'),
-        'search_items'          => __('Projekt suchen', 'interhair'),
-        'not_found'             => __('Kein Projekt gefunden', 'interhair'),
-        'not_found_in_trash'    => __('Kein Projekt im Papierkorb', 'interhair'),
-        'featured_image'        => __('Vorschaubild', 'interhair'),
-        'set_featured_image'    => __('Als Vorschaubild', 'interhair'),
-        'remove_featured_image' => __('Vorschaubild entfernen', 'interhair'),
-        'use_featured_image'    => __('Als Vorschaubild verwenden', 'interhair'),
-        'insert_into_item'      => __('In Projekt einfügen', 'interhair'),
-        'uploaded_to_this_item' => __('Zu Projekt hochgeladen', 'interhair'),
-        'items_list'            => __('Projekt Liste', 'interhair'),
-        'items_list_navigation' => __('Projekt-Liste Navigation', 'interhair'),
-        'filter_items_list'     => __('Filter Projekt-Liste', 'interhair'),
+        'name'                  => _x('Brands', 'Post Type General Name', 'devsign'),
+        'singular_name'         => _x('Brand', 'Post Type Singular Name', 'devsign'),
+        'menu_name'             => __('Brands', 'devsign'),
+        'name_admin_bar'        => __('Brands', 'devsign'),
+        'archives'              => __('Projekt Archiv', 'devsign'),
+        'attributes'            => __('Projekte Attribute', 'devsign'),
+        'parent_item_colon'     => __('Übergeordnetes Projekt:', 'devsign'),
+        'all_items'             => __('Alle Projekte', 'devsign'),
+        'add_new_item'          => __('Neues Projekt hinzufügen', 'devsign'),
+        'add_new'               => __('Projekt hinzufügen', 'devsign'),
+        'new_item'              => __('Neues Projekt', 'devsign'),
+        'edit_item'             => __('Projekt bearbeiten', 'devsign'),
+        'update_item'           => __('Projekt aktualisieren', 'devsign'),
+        'view_item'             => __('Zeige Projekt', 'devsign'),
+        'view_items'            => __('Zeige Projekte', 'devsign'),
+        'search_items'          => __('Projekt suchen', 'devsign'),
+        'not_found'             => __('Kein Projekt gefunden', 'devsign'),
+        'not_found_in_trash'    => __('Kein Projekt im Papierkorb', 'devsign'),
+        'featured_image'        => __('Vorschaubild', 'devsign'),
+        'set_featured_image'    => __('Als Vorschaubild', 'devsign'),
+        'remove_featured_image' => __('Vorschaubild entfernen', 'devsign'),
+        'use_featured_image'    => __('Als Vorschaubild verwenden', 'devsign'),
+        'insert_into_item'      => __('In Projekt einfügen', 'devsign'),
+        'uploaded_to_this_item' => __('Zu Projekt hochgeladen', 'devsign'),
+        'items_list'            => __('Projekt Liste', 'devsign'),
+        'items_list_navigation' => __('Projekt-Liste Navigation', 'devsign'),
+        'filter_items_list'     => __('Filter Projekt-Liste', 'devsign'),
     ];
     $args = [
-        'label'                 => __('Brands', 'interhair'),
+        'label'                 => __('Brands', 'devsign'),
         'labels'                => $labels,
         'supports'              => ['title', 'editor', 'thumbnail', 'revisions'],
         'hierarchical'          => false,
@@ -264,3 +264,4 @@ function theme_enqueue_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
 
+?>
