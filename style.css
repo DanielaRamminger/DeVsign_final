@@ -635,8 +635,13 @@ select {
 .grid-item {
 	border-radius: 25px;
 	padding: 20px;
+	margin:4em;
 }
-
+@media (min-width: 768px) {
+	.grid-item {
+		margin: 6em;
+	}
+}
 .grid-item img {
 	max-width: 100%;
 	height: auto;
@@ -705,8 +710,8 @@ select {
 .projects-grid {
 	margin-top: 2em;
 	display: grid;
-	grid-template-columns: repeat(1, 1fr);
-	gap: 15px;
+	grid-template-columns: repeat(, 1fr);
+	gap: 25px;
 }
 
 @media screen and (min-width: 768px) {
@@ -724,10 +729,11 @@ select {
 .post {
 	border-radius: 25px;
 	background: var(--base-bg-color);
-	box-shadow: inset 8px -8px 16px var(--primary-color), inset -8px 8px 16px #2f2f2f;
+	box-shadow: inset 8px -8px 16px var(--base-bg-color), inset -8px 8px 16px #2f2f2f;
 	padding: 1rem;
 	margin-top: 1.5em;
 	transition: box-shadow 200ms linear;
+	
 }
 
 .post:hover {
