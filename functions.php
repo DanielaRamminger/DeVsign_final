@@ -135,10 +135,10 @@ function project()
 {
 
     $labels = [
-        'name'                  => _x('Brands', 'Post Type General Name', 'devsign'),
-        'singular_name'         => _x('Brand', 'Post Type Singular Name', 'devsign'),
-        'menu_name'             => __('Brands', 'devsign'),
-        'name_admin_bar'        => __('Brands', 'devsign'),
+        'name'                  => _x('Skills', 'Post Type General Name', 'devsign'),
+        'singular_name'         => _x('Skill', 'Post Type Singular Name', 'devsign'),
+        'menu_name'             => __('Skills', 'devsign'),
+        'name_admin_bar'        => __('Skills', 'devsign'),
         'archives'              => __('Projekt Archiv', 'devsign'),
         'attributes'            => __('Projekte Attribute', 'devsign'),
         'parent_item_colon'     => __('Übergeordnetes Projekt:', 'devsign'),
@@ -164,7 +164,7 @@ function project()
         'filter_items_list'     => __('Filter Projekt-Liste', 'devsign'),
     ];
     $args = [
-        'label'                 => __('Brands', 'devsign'),
+        'label'                 => __('Skills', 'devsign'),
         'labels'                => $labels,
         'supports'              => ['title', 'editor', 'thumbnail', 'revisions'],
         'hierarchical'          => false,
@@ -218,12 +218,12 @@ add_theme_support('editor-color-palette', array(
     array(
         'name' => __('Base BG'),
         'slug' => 'base-bg',
-        'color' => '#070707',
+        'color' => '#f2ebeb',
     ),
     array(
         'name' => __('Base Color'),
         'slug' => 'base-color',
-        'color' => '#b9aeae',
+        'color' => '#f2ebeb',
     ),
    
 ));

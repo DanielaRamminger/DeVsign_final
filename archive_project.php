@@ -1,7 +1,7 @@
 <?php
 get_header(); ?>
 <main id="content" class="container">
-    <h1 class="is-style-headline"><?php _e('Alle Brands', 'interhair'); ?></h1>
+    <h1 class="is-style-headline"><?php _e('Alle Skills', 'interhair'); ?></h1>
     <?php
     if (have_posts()) : ?>
         <div class="projects-grid">

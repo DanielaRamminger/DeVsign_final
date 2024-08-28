@@ -647,6 +647,7 @@ select {
 	height: auto;
 	display: block;
 	border-radius: 18px;
+	
 }
 
 .post-title {
@@ -656,9 +657,13 @@ select {
 
 .project {
 	position: relative;
-	overflow: hidden;
-	border-radius: 12px;
-	transition: box-shadow 200ms linear;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: inset 8px -8px 16px var(--base-bg-color), inset -8px 8px 16px #2f2f2f;
+    transition: box-shadow 200ms linear;
+	margin: 50px 0 0 25%;
+    width: 200px; 
+    height: 200px;
 }
 
 .project .project-caption {
@@ -668,14 +673,14 @@ select {
 	left: .7rem;
 	text-transform: uppercase;
 	background: var(--primary-color);
-	color: var(--base-bg-color);
+	color: var(--base-color);
 	border-radius: 16px;
 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 	backdrop-filter: blur(25px);
 	-webkit-backdrop-filter: blur(5px);
 	border: 1px solid rgba(255, 255, 255, 0.747);
 	padding: .4em .6em;
-	font-size: 18px;
+	font-size: 16px;
 	text-align: center;
 	font-family: 'OverusedGrotesk';
 	transform: translateY(200%);
@@ -685,11 +690,11 @@ select {
 .project .project-title {
 	font-weight: 600;
 	margin: 0;
-	font-size: 1em;
+	font-size: 16px;
 }
 
 .project .project-title a {
-	color: var(--base-bg-color);
+	color: var(--base-color);
 	text-decoration: none;
 }
 
@@ -710,7 +715,7 @@ select {
 .projects-grid {
 	margin-top: 2em;
 	display: grid;
-	grid-template-columns: repeat(, 1fr);
+	grid-template-columns: repeat(1, 1fr);
 	gap: 25px;
 }
 

@@ -1,5 +1,5 @@
 <?php
-/* Template Name: Brands */
+/* Template Name: Skills */
 
 get_header(); ?>
 
@@ -21,7 +21,7 @@ get_header(); ?>
 
     if ($project_query->have_posts()) : ?>
         <section class="projects">
-            <h2 class="is-class-headline"><?php _e('Brands', 'interhair'); ?></h2>
+            <h2 class="is-class-headline"><?php _e('skills', 'devsign'); ?></h2>
             <div class="splide" data-splide='{
                    "perPage":1,
                    "pagination":false,
