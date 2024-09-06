@@ -5,6 +5,12 @@ get_header(); ?>
 
 
 <main id="content" class="container">
+<?php if (have_posts()) {
+            while (have_posts()) {
+                the_post();
+                the_content();
+            }
+        } ?>
 
     <?php
 
@@ -60,12 +66,7 @@ get_header(); ?>
             </div>
         </section>
       
-        <?php if (have_posts()) {
-            while (have_posts()) {
-                the_post();
-                the_content();
-            }
-        } ?>
+       
     <?php
         wp_enqueue_style('splide-style');
         wp_enqueue_script('slider-script');
