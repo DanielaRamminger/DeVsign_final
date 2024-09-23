@@ -5,9 +5,11 @@
    
     the_title('<h1 class="is-style-headline">', '</h1>');
     ?>
-    <div class="meta">
+   <div class="meta">
        
-      <!-- <time class="date" datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('d.m.Y'); ?></time> -->
+      <!-- <time class="date" datetime="
+       <?php the_time('Y-m-d'); ?>"><?php the_time('d.m.Y'); ?>
+    </time> -->
         <?php
         the_category(', '); ?>
     </div>

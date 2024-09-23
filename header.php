@@ -48,8 +48,8 @@
             </nav>
 
             <aside class="sidebar">
-        <a href="tel:+6764313781" class="icon-btn"><i class="material-icons">phone</i></a>
-        <a href="mailto:de-v-sign@outlook.com" class="icon-btn"><i class="material-icons">email</i></a>
+        <a href="tel:+436764313781" class="icon-btn"><i class="material-icons">phone</i></a>
+        <a href="mailto:office@de-v-sign.com" class="icon-btn"><i class="material-icons">email</i></a>
     </aside>
         </div>
     </header>
