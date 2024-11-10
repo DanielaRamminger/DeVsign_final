@@ -4,7 +4,16 @@
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="TK5RoFy4albzTmTiAz7kB_PHdFCMWCP8mOFmb-F-cv8" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9ESHGGGDJC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9ESHGGGDJC');
+</script>
     <?php wp_head(); ?>
 </head>
 
